@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+   
+}
+html * {
+    box-sizing: border-box;
+    font-family: 'Poppies', sans-serif;
+}
+header{
+    width: auto;
+    background-color: white;
+}
+nav{
+    padding: 0 20px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.rNav{
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8D8741;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.rNav li a:hover{
+    background-color: #8D8741;
+    color: white;
+}
+#navLogo{
+    font-size: 25px;
+    color: #777139;
+}
+.Main{
+    width: auto;
+    background-image: url(images/pexels-photo-1624217.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 740px;
+}
+.underNav{
+    width: auto;
+    padding: 0 20px;
+}
+.underNav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+.underNav ul li a{
+    text-decoration: none;
+    color: #777139;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.underNav ul li a:hover{
+    background-color: #777139;
+    color: white;
+}
+article{
+    width: auto;
+    padding: 10px 30px;
+    padding-top: 20px;
+    background-image: linear-gradient(#EDF5E1, white);
+}
+footer{
+    width: auto;
+    background-image: url(images/blob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 0 30px;
+}
+footer ul{
+    width: auto;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 270px;
+    align-items: last baseline;
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
